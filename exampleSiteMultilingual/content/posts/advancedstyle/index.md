@@ -13,11 +13,11 @@ There are examples of how to use custom `global-wise style` or `page-wise style`
 <!--more-->
 
 <div class="anubis-custom-style">
-The custom <code>.css</code> <code>.scss</code> <code>.sass</code> file should be placed in <code>assets/</code> folder. (instead of <code>static/</code>)
+The custom <code>.css</code> <code>.scss</code> <code>.sass</code> file should be placed in <code>themes/anubis2/assets/</code> folder. (instead of <code>static/</code>)
 </div>
 
 <junyi>
-This page is affected by <code>assets/css/custom1.scss</code> and <code>assets/css/custom2.css</code> and <code>advanced-style/style.css</code>
+This page is affected by <code>themes/anubis2/assets/css/custom1.scss</code> and <code>themes/anubis2/assets/css/custom2.css</code> and <code>advanced-style/style.css</code>
 </junyi>
 
 <junyi><code>advanced-style/style.css</code> affects only the current page.</junyi>
@@ -32,7 +32,7 @@ This page is affected by <code>assets/css/custom1.scss</code> and <code>assets/c
   @import 'style.css';
 </style>
 
-<junyi><code>assets/css/custom1.scss</code> and <code>assets/css/custom2.scss</code> will have global effect.
+<junyi><code>themes/anubis2/assets/css/custom1.scss</code> and <code>themes/anubis2/assets/css/custom2.css</code> will have global effect.
 
 ```scss
 // assets/css/custom2.css
